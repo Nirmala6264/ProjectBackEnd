@@ -9,7 +9,7 @@ const PORT = 4000;
 // app.use('/', (req,res) => {
 //     res.send("WELCOME TO HALLBOOKING APP")
 // })
-app.use('/api',hallrouter)
+app.use('/',hallrouter)
 app.listen(PORT, () => {
     console.log("App is Listening-",PORT);
 })
